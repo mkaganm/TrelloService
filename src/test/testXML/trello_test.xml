@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trello Tests" parallel="methods" thread-count="4"
+       configfailurepolicy="continue">
+    <test name="TRELLO TESTS AUTOMATION SERVICE">
+        <classes>
+            <class name="trello.TrelloTests"/>
+        </classes>
+    </test>
+</suite>
