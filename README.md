@@ -1,4 +1,4 @@
-# TrelloServiceAutomation
+# TrelloService
 
 ### [Core Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/core)
 ### [Controller Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/base)
