@@ -2,8 +2,8 @@ package com.trello.services;
 
 import com.trello.data.GetDataApplication;
 import com.trello.data.TrelloVariables;
-import core.base.ServiceCommons;
-import core.base.ServiceController;
+import core.common.ServiceCommons;
+import core.controller.ServiceController;
 
 public class TrelloCommonService extends ServiceController {
 

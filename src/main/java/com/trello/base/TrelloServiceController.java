@@ -1,7 +1,7 @@
 package com.trello.base;
 
 import com.trello.data.TrelloVariables;
-import core.base.ServiceController;
+import core.controller.ServiceController;
 import org.testng.annotations.BeforeMethod;
 
 public class TrelloServiceController extends ServiceController {

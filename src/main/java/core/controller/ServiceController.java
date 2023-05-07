@@ -1,4 +1,4 @@
-package core.base;
+package core.controller;
 
 import core.utility.Command;
 import org.testng.annotations.AfterSuite;

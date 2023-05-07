@@ -1,4 +1,6 @@
-package core.base;
+package core.common;
+
+import core.base.ServiceBase;
 
 public class ServiceCommons extends ServiceBase {
 
