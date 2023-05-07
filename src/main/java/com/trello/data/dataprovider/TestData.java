@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 
 public class TestData {
 
-    private TestData(){
+    private TestData() {
         throw new IllegalStateException();
     }
 

@@ -5,7 +5,6 @@ import com.trello.models.response.CreateBoardResponse;
 import com.trello.models.response.CreateCardResponse;
 import com.trello.models.response.IdListResponse;
 import lombok.Data;
-
 import java.util.ArrayList;
 import java.util.List;
 

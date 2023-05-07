@@ -2,10 +2,8 @@ package com.trello.services;
 
 import com.trello.data.GetDataAuthorization;
 import com.trello.models.response.CreateCardResponse;
-import core.utility.Logging;
 import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
-
 import java.util.HashMap;
 
 public class DeleteCardService extends TrelloCommonService {

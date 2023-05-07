@@ -2,12 +2,10 @@ package core.utility;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.model.Status;
-import lombok.SneakyThrows;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
-
 import java.util.Arrays;
 
 public class Logging {
@@ -36,20 +34,6 @@ public class Logging {
         LOGGER.warn(message);
     }
 
-    public static void error(Exception e) {
-        error(null, e);
-    }
-
-    public static <T> void error(T message) {
-        error(message, new Exception((String) message));
-    }
-
-    @SneakyThrows
-    public static <T> void error(T message, Exception e) {
-        if (message != null) warning(message);
-        throw e;
-    }
-
     public static <T> void fail(T message) {
         fail(message, null);
     }
@@ -63,13 +47,4 @@ public class Logging {
         Assert.fail(message.toString(), e);
     }
 
-    public static <T> void fail(T expected, T actual, String message) {
-        fail(expected, actual, message, null);
-    }
-
-    public static <T> void fail(T expected, T actual, String message, Exception e) {
-        warning("Expected: " + expected);
-        warning("Actual: " + actual);
-        fail(message, e);
-    }
 }

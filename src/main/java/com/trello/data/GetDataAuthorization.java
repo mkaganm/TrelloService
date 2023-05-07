@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import core.utility.Logging;
 import lombok.Data;
-
 import java.io.File;
 
 @Data
@@ -33,7 +32,7 @@ public class GetDataAuthorization {
         }
     }
 
-    public static GetDataAuthorization getParameters(){
+    public static GetDataAuthorization getParameters() {
         return data;
     }
 }

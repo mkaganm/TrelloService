@@ -2,10 +2,8 @@ package com.trello.services;
 
 import com.trello.data.GetDataAuthorization;
 import com.trello.models.response.IdListResponse;
-import core.utility.Logging;
 import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
-
 import java.util.HashMap;
 import java.util.List;
 
@@ -38,7 +36,8 @@ public class GetListsService extends TrelloCommonService {
 
     private void idListResponseParser() {
         List<IdListResponse> idListResponseList = core.response.jsonPath().getList("$.", IdListResponse.class);
-        variables.setIdListResponseList(idListResponseList);;
+        variables.setIdListResponseList(idListResponseList);
+        ;
 
     }
 

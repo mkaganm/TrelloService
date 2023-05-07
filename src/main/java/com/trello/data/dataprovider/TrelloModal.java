@@ -2,7 +2,6 @@ package com.trello.data.dataprovider;
 
 import lombok.Builder;
 import lombok.Data;
-
 import java.util.List;
 
 @Data

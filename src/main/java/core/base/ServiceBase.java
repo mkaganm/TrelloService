@@ -6,15 +6,12 @@ import core.utility.Logging;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.sessionId;
 
 public class ServiceBase {
 

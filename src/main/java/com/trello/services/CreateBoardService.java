@@ -3,10 +3,8 @@ package com.trello.services;
 import com.trello.data.GetDataAuthorization;
 import com.trello.data.dataprovider.TrelloModal;
 import com.trello.models.response.CreateBoardResponse;
-import core.utility.Logging;
 import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
-
 import java.util.HashMap;
 
 

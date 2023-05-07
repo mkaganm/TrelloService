@@ -1,10 +1,8 @@
 package com.trello.services;
 
 import com.trello.data.GetDataAuthorization;
-import core.utility.Logging;
 import io.qameta.allure.Step;
 import org.apache.http.HttpStatus;
-
 import java.util.HashMap;
 
 public class DeleteBoardService extends TrelloCommonService {
