@@ -1,7 +1,7 @@
 # TrelloServiceAutomation
 
 ### [Core Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/core)
-### [Base Controller](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/base)
+### [Controller Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/base)
 ### [Data Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/data)
 ### [Models Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/models/response)
 ### [Services Package](https://github.com/mkaganm/TrelloServiceAutomation/tree/master/src/main/java/com/trello/services)
