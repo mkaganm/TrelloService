@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class ServiceController {
 
-    public <T> T startTest(T t){
+    public <T> T startTest(T t) {
         ThreadLocal<T> tl = new ThreadLocal<>();
         tl.set(t);
         return tl.get();

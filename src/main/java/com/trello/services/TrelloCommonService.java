@@ -11,11 +11,6 @@ public class TrelloCommonService extends ServiceController {
 
     public final TrelloVariables variables = TrelloVariables.getInstance();
 
-    public String baseUrl;
-
-    public void setBaseUrl(){
-        baseUrl = GetDataApplication.getParameters().getBaseUrl();
-    }
-
+    public static final String baseUrl = GetDataApplication.getParameters().getBaseUrl();
 
 }

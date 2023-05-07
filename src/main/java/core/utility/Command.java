@@ -2,7 +2,8 @@ package core.utility;
 
 public class Command {
 
-    private Command(){}
+    private Command() {
+    }
 
     public static void runCommand(String command) {
         try {
